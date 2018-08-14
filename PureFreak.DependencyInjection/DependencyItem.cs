@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace KeepSimple.DependencyInjection
+namespace PureFreak.DependencyInjection
 {
     internal class DependencyItem
     {

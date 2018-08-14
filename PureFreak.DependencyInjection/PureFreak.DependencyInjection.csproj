@@ -7,8 +7,8 @@
     <ProjectGuid>{ABD9CA61-DD49-4528-B641-99194B45B714}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>KeepSimple.DependencyInjection</RootNamespace>
-    <AssemblyName>KeepSimple.DependencyInjection</AssemblyName>
+    <RootNamespace>PureFreak.DependencyInjection</RootNamespace>
+    <AssemblyName>PureFreak.DependencyInjection</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -28,6 +28,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\PureFreak.DependencyInjection.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +47,9 @@
     <Compile Include="DependencyResolver.cs" />
     <Compile Include="IDependencyResolver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PureFreak.DependencyInjection.nuspec" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

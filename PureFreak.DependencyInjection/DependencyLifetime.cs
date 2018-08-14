@@ -1,4 +1,4 @@
-﻿namespace KeepSimple.DependencyInjection
+﻿namespace PureFreak.DependencyInjection
 {
     internal enum DependencyLifetime
     {

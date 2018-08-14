@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace KeepSimple.DependencyInjection
+namespace PureFreak.DependencyInjection
 {
     public class DependencyResolver : IDependencyResolver
     {

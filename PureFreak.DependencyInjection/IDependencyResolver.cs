@@ -1,10 +1,7 @@
 ﻿using System;
 
-namespace KeepSimple.DependencyInjection
+namespace PureFreak.DependencyInjection
 {
-    /// <summary>
-    /// Dient zur Auflösung von Abhängigkeiten.
-    /// </summary>
     public interface IDependencyResolver : IDisposable
     {
         #region Methods

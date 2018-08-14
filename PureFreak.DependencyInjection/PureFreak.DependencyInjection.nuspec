@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package >
+
+  <metadata>
+    <id>PureFreak.DependencyInjection</id>
+    <version>1.0.0</version>
+    <title>PureFreak.DependencyInjection</title>
+    <description>Custom dependency injection framework like .NET Core.</description>
+    <authors>Kai Gartenschläger</authors>
+
+    <projectUrl>https://github.com/PureFreak/DependencyInjection</projectUrl>
+    <!--<iconUrl></iconUrl>-->
+
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://raw.githubusercontent.com/PureFreak/DependencyInjection/master/LICENSE</licenseUrl>
+    <copyright>Copyright 2018</copyright>
+
+    <releaseNotes>Initial version</releaseNotes>
+
+    <!--<tags></tags>-->
+  </metadata>
+
+  <files>
+    <file src="bin\Release\PureFreak.DependencyInjection.dll" target="lib\net45" />
+    <file src="bin\Release\PureFreak.DependencyInjection.pdb" target="lib\net45" />
+    <file src="bin\Release\PureFreak.DependencyInjection.xml" target="lib\net45" />
+  </files>
+
+</package>
