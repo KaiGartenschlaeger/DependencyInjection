@@ -1,2 +1,2 @@
 # DependencyInjection
-Custom dependency injection framework like .NET Core.
+Custom dependency injection framework like in .NET Core.
